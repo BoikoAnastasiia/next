@@ -1,9 +1,10 @@
-import React from 'react'
-
+import Cat from './components/cat';
 const Home = () => {
   return (
-    <div>page</div>
-  )
-}
+    <main>
+      <Cat />
+    </main>
+  );
+};
 
-export default Home
+export default Home;

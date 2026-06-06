@@ -1,7 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-
+const catNames = ['Luna', 'Bella', 'Lucy', 'Daisy', 'Max', 'Charlie', 'Buddy', 'Rocky', 'Tiger', 'Jasper'];
+console.log(catNames);
 const Cat = () => {
   const [name, setName] = useState('');
   return (
