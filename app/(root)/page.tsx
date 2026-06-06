@@ -1,4 +1,4 @@
-import Cat from './components/cat';
+import Cat from '../components/cat';
 const Home = () => {
   return (
     <main>
